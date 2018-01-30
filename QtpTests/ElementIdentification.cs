@@ -122,7 +122,7 @@ namespace QtpTests
         public void CleanUp()
         {
             driver.Close();
-            driver.Quit();
+            driver.Quit(); 
         }
     }
 }
