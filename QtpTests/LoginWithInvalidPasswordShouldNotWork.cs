@@ -12,7 +12,7 @@ namespace QtpTests
         {
             Pages.Login.Goto();
             Pages.Login.Login("seleniumTestUser", "SeleniumRocksMySocks!!");
-            Assert.IsFalse(Pages.MyMembership.IsAt());
+            Assert.IsFalse(Pages.MyMembership.IsAt()); 
         }
     }
 }
